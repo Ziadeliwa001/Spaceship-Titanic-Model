@@ -10,7 +10,7 @@ sample_submission.csv: This file contains the format in which the predictions we
 # Approach
 The main steps of my approach are as follows:
 
-Exploratory Data Analysis: I performed some basic data analysis and visualization to understand the data and identify any patterns, correlations, outliers, or missing values.
+Exploratory Data Analysis: I performed some basic data analysisto understand the data and identify any patterns, correlations, outliers, or missing values.
 Data Cleaning and Preprocessing: I dealt with the missing values, categorical variables, and outliers in the data.
 Feature Selection: I used a combination of domain knowledge, correlation analysis, and feature importance scores to select the most relevant features for the model.
 Model Building and Evaluation: I used a Light Gradient Boosting Machine(LGB) as my base model and tuned its hyperparameters using GridSearchCV. I also tried some other models, such as Logistic Regression, RandomForestClassifier, SVC, and XGBoost, and compared their performance using cross-validation and accuracy scores. I chose the best model based on the highest accuracy score on the validation set.
