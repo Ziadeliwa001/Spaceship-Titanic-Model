@@ -17,3 +17,7 @@ Model Building and Evaluation: I used a Light Gradient Boosting Machine(LGB) as 
 Submission: I used the best model to make predictions on the test set and submitted the results to Kaggle. I achieved an accuracy score of ~0.81 on the public leaderboard, which ranked me among the top 17% of the participants.
 # Conclusion
 In this project, I applied various data science and machine learning techniques to predict which passengers on the Spaceship Titanic were transported to an alternate dimension. I used a RandomForestClassifier as my best model and achieved an accuracy score of ~0.81 on the test set. I learned a lot from this competition and enjoyed the challenge of working with a fictional and futuristic dataset. I hope you find this project interesting and useful.
+
+# Team Member 
+- [Adham Hany Ahmed](https://github.com/elkomy13)
+
