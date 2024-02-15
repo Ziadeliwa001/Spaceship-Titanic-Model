@@ -1,5 +1,5 @@
 # Spaceship-Titanic-Project-Predicting Alternate Dimension Transport
-This repository contains my solution for the Spaceship Titanic competition on Kaggle. The goal of this competition is to use machine learning to predict which passengers on the interstellar passenger liner Spaceship Titanic were transported to an alternate dimension during the collision with a spacetime anomaly.
+This repository contains our solution for the Spaceship Titanic competition on Kaggle. The goal of this competition is to use machine learning to predict which passengers on the interstellar passenger liner Spaceship Titanic were transported to an alternate dimension during the collision with a spacetime anomaly.
 
 # Data
 The data consists of three CSV files:
@@ -10,13 +10,13 @@ sample_submission.csv: This file contains the format in which the predictions we
 # Approach
 The main steps of my approach are as follows:
 
-Exploratory Data Analysis: I performed some basic data analysisto understand the data and identify any patterns, correlations, outliers, or missing values.
-Data Cleaning and Preprocessing: I dealt with the missing values, categorical variables, and outliers in the data.
-Feature Selection: I used a combination of domain knowledge, correlation analysis, and feature importance scores to select the most relevant features for the model.
-Model Building and Evaluation: I used a Light Gradient Boosting Machine(LGB) as my base model and tuned its hyperparameters using GridSearchCV. I also tried some other models, such as Logistic Regression, RandomForestClassifier, SVC, and XGBoost, and compared their performance using cross-validation and accuracy scores. I chose the best model based on the highest accuracy score on the validation set.
-Submission: I used the best model to make predictions on the test set and submitted the results to Kaggle. I achieved an accuracy score of ~0.81 on the public leaderboard, which ranked me among the top 17% of the participants.
+Exploratory Data Analysis: we performed some basic data analysisto understand the data and identify any patterns, correlations, outliers, or missing values.
+Data Cleaning and Preprocessing: we dealt with the missing values, categorical variables, and outliers in the data.
+Feature Selection: we used a combination of domain knowledge, correlation analysis, and feature importance scores to select the most relevant features for the model.
+Model Building and Evaluation: we used a Light Gradient Boosting Machine(LGB) as my base model and tuned its hyperparameters using GridSearchCV. we also tried some other models, such as Logistic Regression, RandomForestClassifier, SVC, and XGBoost, and compared their performance using cross-validation and accuracy scores. we chose the best model based on the highest accuracy score on the validation set.
+Submission: we used the best model to make predictions on the test set and submitted the results to Kaggle. we achieved an accuracy score of ~0.81 on the public leaderboard, which ranked me among the top 17% of the participants.
 # Conclusion
-In this project, I applied various data science and machine learning techniques to predict which passengers on the Spaceship Titanic were transported to an alternate dimension. I used a RandomForestClassifier as my best model and achieved an accuracy score of ~0.81 on the test set. I learned a lot from this competition and enjoyed the challenge of working with a fictional and futuristic dataset. I hope you find this project interesting and useful.
+In this project, we applied various data science and machine learning techniques to predict which passengers on the Spaceship Titanic were transported to an alternate dimension. we used a RandomForestClassifier as my best model and achieved an accuracy score of ~0.81 on the test set. we learned a lot from this competition and enjoyed the challenge of working with a fictional and futuristic dataset. we hope you find this project interesting and useful.
 
 # Team Member 
 - [Adham Hany Ahmed](https://github.com/elkomy13)
