@@ -16,7 +16,7 @@ Feature Selection: we used a combination of domain knowledge, correlation analys
 Model Building and Evaluation: we used a Light Gradient Boosting Machine(LGB) as my base model and tuned its hyperparameters using GridSearchCV. we also tried some other models, such as Logistic Regression, RandomForestClassifier, SVC, and XGBoost, and compared their performance using cross-validation and accuracy scores. we chose the best model based on the highest accuracy score on the validation set.
 Submission: we used the best model to make predictions on the test set and submitted the results to Kaggle. we achieved an accuracy score of ~0.81 on the public leaderboard, which ranked me among the top 17% of the participants.
 # Conclusion
-In this project, we applied various data science and machine learning techniques to predict which passengers on the Spaceship Titanic were transported to an alternate dimension. we used a RandomForestClassifier as my best model and achieved an accuracy score of ~0.81 on the test set. we learned a lot from this competition and enjoyed the challenge of working with a fictional and futuristic dataset. we hope you find this project interesting and useful.
+In this project, we applied various data science and machine learning techniques to predict which passengers on the Spaceship Titanic were transported to an alternate dimension. we used a Light Gradient Boosting Machine(LGB) as my best model and achieved an accuracy score of ~0.81 on the test set. we learned a lot from this competition and enjoyed the challenge of working with a fictional and futuristic dataset. we hope you find this project interesting and useful.
 
 # Team Member 
 - [Adham Hany Ahmed](https://github.com/elkomy13)
